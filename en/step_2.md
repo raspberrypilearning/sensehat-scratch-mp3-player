@@ -1,13 +1,20 @@
-## What you will need
+## Making it sprakle
 
-### Hardware
+Let's being by using the SenseHAT to produce a random sparkly display, to accompnay your favorite music.
 
-+ List hardware here, or delete section.
+--- task ---
+Open Scratch 2 from the application menu.
+[[[rpi-scratch-opening]]]
+--- /task ---
 
-### Software
+--- task ---
+Choose a sprite for your MP3 player - here we're going to use a speaker
+[[[generic-scratch-sprite-from-library]]]
+--- /task ---
 
-+ List software here, or delete section.
+You can delete any scripts or sounds that are already on your sprite.
 
-### Additional Resources
+--- task ---
+- In the Scripts menu, click on `More Blocks` {:class=”blockmoreblocks”}
 
-+ List additional resources, or delete section.
+--- /task ---

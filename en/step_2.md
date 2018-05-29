@@ -18,7 +18,7 @@ You can delete any scripts or sounds that are already on your sprite.
 - In the Scripts menu, click on `More Blocks`{:class=”Blockmoreblocks”}
 
 --- /task ---
-- In the Scripts menu, click on `More Blocks`{:class=”blockmotion”}
+1. In the Scripts menu, click on `More Blocks`{:class=”blockmotion”}
 - `set gpio (2) to [output high v]`::extension
 
 

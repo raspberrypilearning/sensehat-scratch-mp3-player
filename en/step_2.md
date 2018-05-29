@@ -26,7 +26,7 @@ Now you're all setup, you can begin creating your MP3 player by creating a disco
 Begin by adding a `when flag clicked`{:class="blockevents"}, and then add a `forever`{:class="blockcontrol"} beneath it.
 --- code ---
 ---
-language: scratch
+language: scratchblocks
 ---
 when flag clicked
 forever
@@ -36,7 +36,7 @@ forever
 --- task ---
 --- code ---
 ---
-language: scratch
+language: scratchblocks
 ---
 when flag clicked
 forever

@@ -8,17 +8,39 @@ Open Scratch 2 from the application menu.
 --- /task ---
 
 --- task ---
-Choose a sprite for your MP3 player - here we're going to use a speaker
+Choose a sprite for your MP3 player - here we're going to use a speaker.
+![speaker](images/speaker.png)
 [[[generic-scratch-sprite-from-library]]]
 --- /task ---
 
 You can delete any scripts or sounds that are already on your sprite.
 
 --- task ---
-- In the Scripts menu, click on `More Blocks`{:class="blockmoreblocks"}
+Add the SenseHAT extension in Scratch.
+[[[rpi-scratch-add-pi-sense-hat]]]
+--- /task ---
+
+Now you're all setup, you can begin creating your MP3 player by creating a disco effect on the display, to acccompany the songs.
+
+--- task ---
+Begin by adding a `when flag clicked`{:class="blockevents"}, and then add a `forever`{:class="blockcontrol"} beneath it.
+--- code ---
+---
+language: scratch
+---
+when flag clicked
+forever
+--- /code ---
+--- /task ---
+
+--- task ---
+--- code ---
+---
+language: scratch
+---
+when flag clicked
+forever
+set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+--- /code ---
 
 --- /task ---
-1. In the Scripts menu, click on `changing x`{:class="blockmotion"}
-1. Start `when the left arrow key is pressed`{:class="blockevents"}
-1. Change the angle the sprite is `pointed`{:class="blockmotion"}
-1. Move the sprite to the left by `changing x`{:class="blockmotion"}

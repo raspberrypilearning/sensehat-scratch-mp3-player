@@ -30,8 +30,8 @@ language: blocks
 ---
 when flag clicked
 forever
+set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
 --- /code ---
---- /task ---
 
 --- task ---
 --- code ---

@@ -32,8 +32,10 @@ when flag clicked
 forever
 set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
 --- /code ---
+--- /task ---
 
 --- task ---
+Then you can set random pixel positions and random colours within the loop, to make the SenseHat sparkle
 --- code ---
 ---
 language: blocks
@@ -44,7 +46,3 @@ set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (
 --- /code ---
 
 --- /task ---
-
-```blocks
-when flag clicked
-```

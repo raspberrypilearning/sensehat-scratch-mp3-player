@@ -44,3 +44,7 @@ set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (
 --- /code ---
 
 --- /task ---
+
+```scratch
+when flag clicked
+```

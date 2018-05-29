@@ -15,6 +15,7 @@ Choose a sprite for your MP3 player - here we're going to use a speaker
 You can delete any scripts or sounds that are already on your sprite.
 
 --- task ---
-- In the Scripts menu, click on `More Blocks` {:class=”blockmoreblocks”}
+- In the Scripts menu, click on `More Blocks` {:class=”Blockmoreblocks”}
 
 --- /task ---
+- In the Scripts menu, click on `More Blocks` {:class=”blockmoreblocks”}

@@ -11,19 +11,26 @@ Click on the **Sounds** tab for your sprite and use the **Upload sound from file
 ![sounds](images/sounds.png)
 --- /task ---
 
---- code ---
----
-language: python
-filename: test.py
-line_numbers: true
-line_number_start: 3
-highlight_lines: 4-5,7
----
-while True:
-    print('hello')
-	if thing == 1:
-	    print('hello')
-	else:
-	    print('goodbye')
---- /code ---
+Now it's time to play your tracks.
+
+--- task ---
+Your current code code should look like this:
+```blocks
+when flag clicked
+forever
+set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+```
+You can play a sound using the `play sound`{:class="blocksounds"} block. Add this block above your forever loop.
+```blocks
+when flag clicked
+play sound [track_01.mp3 v]
+forever
+set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+```
+--- /task ---
+
+--- task ---
+Now click on the **Green Flag** to play your track as the disco lights start. Make sure you have speakers or headphones plugged into your Raspberry Pi. You might also need to change the sound output to **Analog**, by right clicking on the speaker icon on the Desktop.
+![analog](images/analog.png)
+--- /task ---
 

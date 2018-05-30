@@ -12,3 +12,4 @@ steps:
   - title: Displaying the track number
   - title: Changing the volume
   - title: Changing the track
+  - title: "Challenge: Shuffle the tracks"

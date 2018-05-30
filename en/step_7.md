@@ -1,4 +1,4 @@
-## Challenge: Shuffle the track
+## Challenge: Shuffle the tracks
 
 --- challenge ---
 A nice feature to have on an MP3 player would be the ability to shuffle the tracks, so that they play in a random order.

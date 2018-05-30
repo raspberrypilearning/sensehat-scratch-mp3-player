@@ -11,3 +11,4 @@ steps:
   - title: Playing some tunes
   - title: Displaying the track number
   - title: Changing the volume
+  - title: Changing the track

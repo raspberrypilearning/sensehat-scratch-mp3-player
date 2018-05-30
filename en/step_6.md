@@ -3,8 +3,8 @@
 Now that you know how to use the joystick, it's time to try and use it to change which track is playing.
 
 --- task ---
-1. When the program starts, you will need to `stop all sounds`{:class="blocksounds"}.
-2. Use the `when left arrow is pressed`{:class="blockevents"} and the `when right arrow is pressed`{:class="blockevents"} blocks to `stop all sounds`{:class="blocksounds"}, then increase and decrease the value of your `track`{:class="blockdata"}.
+1. When the program starts, you will need to `stop all sounds`{:class="blocksound"}.
+2. Use the `when left arrow is pressed`{:class="blockevents"} and the `when right arrow is pressed`{:class="blockevents"} blocks to `stop all sounds`{:class="blocksound"}, then increase and decrease the value of your `track`{:class="blockdata"}.
 3. You can also use a`scroll message`{:class="blockmoreblocks"} block to show which track is being played.
 --- /task ---
 
@@ -32,7 +32,7 @@ stop all sounds
 change [track v] by (-1)
 ```
 --- /hint --- --- hint ---
-Then you just need to `scroll message`{:class="blockmoreblocks"} and `play sound`{:class="blocksounds"} for both arrow keys.
+Then you just need to `scroll message`{:class="blockmoreblocks"} and `play sound`{:class="blocksound"} for both arrow keys.
 
 ```blocks
 when [right arrow v] key pressed

@@ -18,7 +18,7 @@ set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (
 --- /task ---
 
 --- task ---
-Add in two new scripts, using the `when key pressed`{:class="blockcontrol"} blocks to `change volume`{:class="blocksounds"}.
+Add in two new scripts, using the `when key pressed`{:class="blockcontrol"} blocks to `change volume`{:class="blocksound"}.
 
 ```blocks
 when [up arrow v] key pressed

@@ -31,7 +31,7 @@ forever
 --- /task ---
 
 --- task ---
-Within the `More Blocks`{:class="blockmoreblocks} menu you can find the `set pixel`{:class="blockmoreblocks} block. By using the `pick random`{:class="blockoperators"} block you can set random pixel positions and random colours within the loop, to make the SenseHAT sparkle
+Within the `More Blocks`{:class="blockmoreblocks"} menu you can find the `set pixel`{:class="blockmoreblocks"} block. By using the `pick random`{:class="blockoperators"} block you can set random pixel positions and random colours within the loop, to make the SenseHAT sparkle
 
 ```blocks
 when flag clicked

@@ -6,6 +6,7 @@ The SenseHAT joystic is treated by the computer the same way the cursor keys are
 
 --- task ---
 Change your intitial script so that the volume starts at `100%`
+```blocks
 when flag clicked
 set [track v] to [1]
 scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension
@@ -13,6 +14,7 @@ set volume to (100) %
 play sound (track)
 forever
 set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+```
 --- /task ---
 
 --- task ---
@@ -24,6 +26,7 @@ change volume by (10)
 
 when [down arrow v] key pressed
 change volume by (-10)
+```
 --- /task ---
 
 Test your scripts again by clicking the green flag and then use the SenseHAT joystick to change the volume of your music.

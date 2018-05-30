@@ -31,7 +31,7 @@ forever
 --- /task ---
 
 --- task ---
-Then you can set random pixel positions and random colours within the loop, to make the SenseHat sparkle
+Within the `More Blocks`{:class="blockmoreblocks} menu you can find the `set pixel`{:class="blockmoreblocks}. By using the `pick random`{:class="blockoperators} you can set random pixel positions and random colours within the loop, to make the SenseHat sparkle
 ```blocks
 when flag clicked
 forever
@@ -39,14 +39,7 @@ set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (
 ```
 --- /task ---
 
-```blocks
-when flag clicked
-forever +
-set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
-```
-```blocks
-when flag clicked
-+ forever
-set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
-```
+--- task ---
 Have a go at running your program by clicking on the Green flag. You should see the LEDs on the SenseHAT ranndomly begin to sparkle.
+--- /task ---
+

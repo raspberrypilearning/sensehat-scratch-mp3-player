@@ -13,20 +13,20 @@ Next you're going to display the track number that is playing. You can have a go
 
 --- hints --- --- hint ---
 You can set the `track`{:class="blockdata"} number by doing the following:
-```block
+```blocks
 when flag clicked
 set [track v] to [1]
 ```
 --- /hint --- --- hint ---
-The `scroll message`{:class="blockmoreblocks"} can use the `track`{:class="blockdata"} variable with a `join`{:class="blockoperators"}. You can choose your own colours
-```block
+The `scroll message`{:class="blockmoreblocks"} block can use the `track`{:class="blockdata"} variable with a `join`{:class="blockoperators"} block. You can choose whichever colours you like.
+```blocks
 when flag clicked
 set [track v] to [1]
 scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension
 ```
 --- /hint --- --- hint ---
 Finish up the script by changing the track that is being played to the `track`{:class="blockdata"} variable.
-```block
+```blocks
 when flag clicked
 set [track v] to [1]
 scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension

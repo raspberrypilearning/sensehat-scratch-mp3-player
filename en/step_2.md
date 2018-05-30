@@ -46,7 +46,7 @@ set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (
 ```
 ```blocks
 when flag clicked
-forever ::+
++ forever
 set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
 ```
 Have a go at running your program by clicking on the Green flag. You should see the LEDs on the SenseHAT ranndomly begin to sparkle.

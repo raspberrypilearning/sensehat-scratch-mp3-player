@@ -26,6 +26,10 @@ You can use the `when arrow is pressed`{:class="blockevents"} blocks to change t
 when [right arrow v] key pressed
 stop all sounds
 change [track v] by (1)
+
+when [left arrow v] key pressed
+stop all sounds
+change [track v] by (-1)
 ```
 --- /hint --- --- hint ---
 Then you just need to `scroll message`{:class="blockmoreblocks"} and `play sound`{:class="blocksounds"} for both arrow keys.
@@ -36,6 +40,13 @@ stop all sounds
 change [track v] by (1)
 scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension
 play sound (track)
+
+when [left arrow v] key pressed
+stop all sounds
+change [track v] by (-1)
+scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension
+play sound (track)
+```
 ```
 --- /hint --- --- /hints ---
 

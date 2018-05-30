@@ -1,4 +1,4 @@
-## Making it sprakle
+## Making it sparkle
 
 Let's being by using the SenseHAT to produce a random sparkly display, to accompnay your favorite music.
 
@@ -27,7 +27,6 @@ Begin by adding a `when flag clicked`{:class="blockevents"}, and then add a `for
 ```blocks
 when flag clicked
 forever
-set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
 ```
 --- /task ---
 
@@ -39,3 +38,15 @@ forever
 set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
 ```
 --- /task ---
+
+```blocks
+when flag clicked
+forever +
+set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+```
+```blocks
+when flag clicked
+forever ::+
+set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+```
+Have a go at running your program by clicking on the Green flag. You should see the LEDs on the SenseHAT ranndomly begin to sparkle.

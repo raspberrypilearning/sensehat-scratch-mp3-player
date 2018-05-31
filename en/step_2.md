@@ -1,6 +1,6 @@
 ## Making it sparkle
 
-Let's being by using the SenseHAT to produce a random sparkly display, to accompany your favorite music.
+Let's being by getting the Sense HAT to show a random sparkly display to accompany your favorite music.
 
 --- task ---
 Open Scratch 2 from the application menu.
@@ -8,7 +8,7 @@ Open Scratch 2 from the application menu.
 --- /task ---
 
 --- task ---
-Choose a sprite for your MP3 player - here we're going to use a speaker.
+Choose a sprite for your MP3 player — here we're going to use a speaker.
 ![speaker](images/speaker.png)
 [[[generic-scratch-sprite-from-library]]]
 --- /task ---
@@ -16,14 +16,14 @@ Choose a sprite for your MP3 player - here we're going to use a speaker.
 You can delete any scripts or sounds that are already on your sprite.
 
 --- task ---
-Add the SenseHAT extension in Scratch.
+Add the **Pi SenseHAT** extension in Scratch.
 [[[rpi-scratch-add-pi-sense-hat]]]
 --- /task ---
 
-Now you're all setup, you can begin creating your MP3 player by creating a disco effect on the display, to accompany the songs.
+Now you're all set up, you can begin to make your MP3 player by creating a disco effect on the display.
 
 --- task ---
-Begin by adding a `when flag clicked`{:class="blockevents"}, and then add a `forever`{:class="blockcontrol"} beneath it.
+Begin by adding a `when flag clicked`{:class="blockevents"} block, and then add a `forever`{:class="blockcontrol"} block below it.
 ```blocks
 when flag clicked
 forever
@@ -31,7 +31,7 @@ forever
 --- /task ---
 
 --- task ---
-Within the `More Blocks`{:class="blockmoreblocks"} menu you can find the `set pixel`{:class="blockmoreblocks"} block. By using the `pick random`{:class="blockoperators"} block you can set random pixel positions and random colours within the loop, to make the SenseHAT sparkle
+Within the **More Blocks** menu, find the `set pixel`{:class="blockmoreblocks"} block. By using the `pick random`{:class="blockoperators"} block, you can set random pixel positions and random colours within the loop to make your Sense HAT sparkle
 
 ```blocks
 when flag clicked
@@ -41,6 +41,6 @@ set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (
 --- /task ---
 
 --- task ---
-Have a go at running your program by clicking on the Green flag. You should see the LEDs on the SenseHAT randomly begin to sparkle.
+Have a go at running your program by clicking on the green flag. You should see the LEDs on the Sense HAT begin to randomly sparkle.
 --- /task ---
 

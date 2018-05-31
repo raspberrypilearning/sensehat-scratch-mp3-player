@@ -1,13 +1,13 @@
 ## Displaying the track number
 
-Next you're going to display the track number that is playing. You can have a go at this on your own to begin with, and use the hints if you get stuck.
+Next, you're going to display the number of the track that's currently playing. You can have a go at trying this on your own — use the hints if you get stuck.
 
 --- task ---
 Try the following:
 1. Create a new variable called `track`{:class="blockdata"}.
    [[[generic-scratch-add-variable]]]
-2.  Use the `scroll message`{:class="blockmoreblocks"} block to display the `track`{:class="blockdata"} number on the SenseHAT.
-3. Play the track which you set `track`{:class="blockdata"} to.
+1. Use the `scroll message`{:class="blockmoreblocks"} block to display the number in `track`{:class="blockdata"} on the Sense HAT.
+1. Play the track that you set the `track`{:class="blockdata"} variable to.
 --- /task ---
 
 --- hints --- --- hint ---
@@ -30,7 +30,7 @@ forever
 set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
 ```
 --- /hint --- --- hint ---
-Finish up the script by changing the track that is being played to the `track`{:class="blockdata"} variable.
+Finish the script by changing the track that is being played to the `track`{:class="blockdata"} variable.
 ```blocks
 when flag clicked
 set [track v] to [1]

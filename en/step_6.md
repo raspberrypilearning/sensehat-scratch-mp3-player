@@ -4,8 +4,8 @@ Now that you know how to use the joystick, it's time to try and use it to change
 
 --- task ---
 1. When the program starts, you will need to `stop all sounds`{:class="blocksound"}.
-2. Use the `when left arrow is pressed`{:class="blockevents"} and the `when right arrow is pressed`{:class="blockevents"} blocks to `stop all sounds`{:class="blocksound"}, then increase and decrease the value of your `track`{:class="blockdata"}.
-3. You can also use a`scroll message`{:class="blockmoreblocks"} block to show which track is being played.
+2. Use the `when left arrow is pressed`{:class="blockevents"} and the `when right arrow is pressed`{:class="blockevents"} blocks to `stop all sounds`{:class="blocksound"} and to increase or decrease the value of your `track`{:class="blockdata"} variable.
+3. You can also use a `scroll message`{:class="blockmoreblocks"} block to show again which track is being played.
 --- /task ---
 
 --- hints --- --- hint ---
@@ -21,7 +21,7 @@ forever
 set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
 ```
 --- /hint --- --- hint ---
-You can use the `when arrow is pressed`{:class="blockevents"} blocks to change the value of your `track`{:class="blockdata"} variable like this
+You can use the `when arrow is pressed`{:class="blockevents"} blocks to change the value stored in your `track`{:class="blockdata"} variable like this:
 ```blocks
 when [right arrow v] key pressed
 stop all sounds
@@ -50,4 +50,4 @@ play sound (track)
 ```
 --- /hint --- --- /hints ---
 
-That's it, your MP3 player is complete. Click on the green flag and then have a go at changing your tracks using the SenseHAT joystick.
+That's it — your MP3 player is complete! Click on the green flag and then have a go at changing your tracks using the Sense HAT joystick.

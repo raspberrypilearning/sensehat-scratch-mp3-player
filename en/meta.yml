@@ -1,6 +1,6 @@
-title: sensehat-scratch-mp3-player
+title: Sense HAT music player
 hero_image: images/banner.png
-description: sensehat-scratch-mp3-player description
+description: Build a sparkling MP3 player with Scratch and the Sense HAT
 version: 4
 listed: false
 copyedit: false
@@ -12,4 +12,4 @@ steps:
   - title: Displaying the track number
   - title: Changing the volume
   - title: Changing the track
-  - title: "Challenge: Shuffle the tracks"
+  - title: "Challenge: shuffle the tracks"

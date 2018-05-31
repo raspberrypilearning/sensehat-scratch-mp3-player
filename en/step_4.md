@@ -6,12 +6,12 @@ Next, you're going to display the number of the track that's currently playing. 
 Try the following:
 1. Create a new variable called `track`{:class="blockdata"}.
    [[[generic-scratch-add-variable]]]
-1. Use the `scroll message`{:class="blockmoreblocks"} block to display the number in `track`{:class="blockdata"} on the Sense HAT.
-1. Play the track that you set the `track`{:class="blockdata"} variable to.
+1. Use the `scroll message`{:class="blockmoreblocks"} block to display the number stored in `track`{:class="blockdata"} on the Sense HAT.
+1. Play the track with the number stored in your the `track`{:class="blockdata"} variable.
 --- /task ---
 
 --- hints --- --- hint ---
-You can set the `track`{:class="blockdata"} number by doing the following:
+You can store a number in `track`{:class="blockdata"} by doing the following:
 ```blocks
 when flag clicked
 set [track v] to [1]

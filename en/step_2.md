@@ -1,6 +1,6 @@
 ## Making it sparkle
 
-Let's being by using the SenseHAT to produce a random sparkly display, to accompnay your favorite music.
+Let's being by using the SenseHAT to produce a random sparkly display, to accompany your favorite music.
 
 --- task ---
 Open Scratch 2 from the application menu.
@@ -20,7 +20,7 @@ Add the SenseHAT extension in Scratch.
 [[[rpi-scratch-add-pi-sense-hat]]]
 --- /task ---
 
-Now you're all setup, you can begin creating your MP3 player by creating a disco effect on the display, to acccompany the songs.
+Now you're all setup, you can begin creating your MP3 player by creating a disco effect on the display, to accompany the songs.
 
 --- task ---
 Begin by adding a `when flag clicked`{:class="blockevents"}, and then add a `forever`{:class="blockcontrol"} beneath it.
@@ -41,6 +41,6 @@ set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (
 --- /task ---
 
 --- task ---
-Have a go at running your program by clicking on the Green flag. You should see the LEDs on the SenseHAT ranndomly begin to sparkle.
+Have a go at running your program by clicking on the Green flag. You should see the LEDs on the SenseHAT randomly begin to sparkle.
 --- /task ---
 

@@ -50,4 +50,4 @@ play sound (track)
 ```
 --- /hint --- --- /hints ---
 
-That's it, your MP3 player is complete. Click on the green flag and then have a go at changing your tracks using the SenseHat joystick.
+That's it, your MP3 player is complete. Click on the green flag and then have a go at changing your tracks using the SenseHAT joystick.

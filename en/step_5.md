@@ -2,10 +2,10 @@
 
 You can now add some extra controls to your MP£ player. First of all you can set up your scripts so that the SenseHAT joystick can control the volume.
 
-The SenseHAT joystic is treated by the computer the same way the cursor keys are on your keyboard. Pushing the joystick up is the same as pushing the up arrow on your keyboard.
+The SenseHAT joystick is treated by the computer the same way the cursor keys are on your keyboard. Pushing the joystick up is the same as pushing the up arrow on your keyboard.
 
 --- task ---
-Change your intitial script so that the volume starts at `100%`
+Change your initial script so that the volume starts at `100%`
 ```blocks
 when flag clicked
 set [track v] to [1]

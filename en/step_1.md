@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project you will bbe making your very own mp3 player, using a Raspberry Pi and a SenseHat. You'll be bale to shift between tracks in your playlist, change the volume, and have a cool disco display showing on the LED matrix. 
+In this project you will be making your very own mp3 player, using a Raspberry Pi and a SenseHAT. You'll be bale to shift between tracks in your playlist, change the volume, and have a cool disco display showing on the LED matrix. 
 
 ### What you will make
 

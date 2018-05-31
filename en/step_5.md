@@ -1,11 +1,11 @@
 ## Changing the volume
 
-You can now add some extra controls to your MP£ player. First of all you can set up your scripts so that the SenseHAT joystick can control the volume.
+You can now add some extra controls to your MP3 player. First of all, set up your script so that the Sense HAT joystick can control the volume.
 
-The SenseHAT joystick is treated by the computer the same way the cursor keys are on your keyboard. Pushing the joystick up is the same as pushing the up arrow on your keyboard.
+The Raspberry Pi treats the Sense HAT joystick in the same way as the arrow keys on your keyboard. This means that, for example, pushing the joystick up is the same as pushing the up arrow on your keyboard.
 
 --- task ---
-Change your initial script so that the volume starts at `100%`
+Change the script you already have so that the volume starts at `100%`.
 ```blocks
 when flag clicked
 set [track v] to [1]
@@ -18,7 +18,7 @@ set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (
 --- /task ---
 
 --- task ---
-Add in two new scripts, using the `when key pressed`{:class="blockcontrol"} blocks to `change volume`{:class="blocksound"}.
+Add in two new scripts that use `when key pressed`{:class="blockcontrol"} blocks to `change volume`{:class="blocksound"}.
 
 ```blocks
 when [up arrow v] key pressed
@@ -29,4 +29,4 @@ change volume by (-10)
 ```
 --- /task ---
 
-Test your scripts again by clicking the green flag and then use the SenseHAT joystick to change the volume of your music.
+Test your scripts again: click the green flag, and then use the Sense HAT joystick to change the volume of your music.

@@ -31,7 +31,7 @@ forever
 --- /task ---
 
 --- task ---
-Within the **More Blocks** menu, find the `set pixel`{:class="blockmoreblocks"} block. By using the `pick random`{:class="blockoperators"} block, you can set random pixel positions and random colours within the loop to make your Sense HAT sparkle
+Within the **More Blocks** menu, find the `set pixel`{:class="blockmoreblocks"} block. By using the `pick random`{:class="blockoperators"} block, you can set random pixel positions and random colours within the loop to make your Sense HAT sparkle, by choosing LEDs on the SenseHAT to light up (numbers between 0 and 7 on the 8x8 grid), and the amount of red, green and blue to colour the pixels (numbers between 0 and 255).
 
 ```blocks
 when flag clicked

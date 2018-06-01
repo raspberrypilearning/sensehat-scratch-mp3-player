@@ -20,7 +20,8 @@ when flag clicked
 forever
 set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
 ```
-You can play a sound using the `play sound`{:class="blocksound"} block. Add this block above your forever{:class="blockcontrol"} loop.
+You can play a sound using the `play sound`{:class="blocksound"} block. Add this block above your `forever`{:class="blockcontrol"} loop.
+
 ```blocks
 when flag clicked
 play sound [track_01.mp3 v]

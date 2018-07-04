@@ -27,6 +27,10 @@ title: What you will need
 ---
 - A Raspberry Pi (not a Zero/Zero W)
 - A Sense HAT
+
+Optional:
+- Speakers or headphones
+
 --- /collapse ---
 
 --- collapse ---

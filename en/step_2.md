@@ -35,6 +35,10 @@ Colours can be represented by what are called Hexadecimal codes or *hexcodes* fo
 <a title="Monaneko [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SVG_Recognized_color_keyword_names.svg"><img width="512" alt="SVG Recognized color keyword names" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/SVG_Recognized_color_keyword_names.svg/512px-SVG_Recognized_color_keyword_names.svg.png"></a>
 
 --- task ---
+Create a new variable called `hex`{:class="block3variables"}
+--- /task ---
+
+--- task ---
 Have a go at running your program by clicking on the green flag. You should see the LEDs on the Sense HAT begin to randomly sparkle.
 --- /task ---
 

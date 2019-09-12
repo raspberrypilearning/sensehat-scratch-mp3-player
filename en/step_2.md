@@ -39,6 +39,14 @@ Create a new variable called `hex`{:class="block3variables"}
 --- /task ---
 
 --- task ---
+You can begin by setting the value of `hex`{:class="block3variables"} to `#`{:class="block3variables"}
+
+```blocks3
+set [hex v] to [#]
+```
+--- /task ---
+
+--- task ---
 Have a go at running your program by clicking on the green flag. You should see the LEDs on the Sense HAT begin to randomly sparkle.
 --- /task ---
 

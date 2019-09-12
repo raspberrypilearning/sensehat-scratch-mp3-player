@@ -10,35 +10,29 @@ Open Scratch 2 from the application menu.
 --- task ---
 Choose a sprite for your MP3 player — here we're going to use a speaker.
 ![speaker](images/speaker.png)
-[[[generic-scratch-sprite-from-library]]]
+[[[generic-scratch3-sprite-from-library]]]
 --- /task ---
 
 You can delete any scripts or sounds that are already on your sprite.
 
 --- task ---
 Add the **Pi SenseHAT** extension in Scratch.
-[[[rpi-scratch-add-pi-sense-hat]]]
+[[[rpi-scratch3-add-sensehat-extension]]]
 --- /task ---
 
 Now you're all set up, you can begin to make your MP3 player by creating a disco effect on the display.
 
 --- task ---
 Begin by adding a `when flag clicked`{:class="blockevents"} block, and then add a `forever`{:class="blockcontrol"} block below it.
-```blocks
+```blocks3
 when flag clicked
 forever
 ```
 --- /task ---
 
---- task ---
-Within the **More Blocks** menu, find the `set pixel`{:class="blockmoreblocks"} block. By using the `pick random`{:class="blockoperators"} block, you can set random pixel positions and random colours within the loop to make your Sense HAT sparkle, by choosing LEDs on the SenseHAT to light up (numbers between 0 and 7 on the 8x8 grid), and the amount of red, green and blue to colour the pixels (numbers between 0 and 255).
+Colours can be represented by what are called Hexadecimal codes or *hexcodes* for short. You can see a list of some hexcodes along with the colours they represent below.
 
-```blocks
-when flag clicked
-forever
-set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
-```
---- /task ---
+<a title="Monaneko [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SVG_Recognized_color_keyword_names.svg"><img width="512" alt="SVG Recognized color keyword names" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/SVG_Recognized_color_keyword_names.svg/512px-SVG_Recognized_color_keyword_names.svg.png"></a>
 
 --- task ---
 Have a go at running your program by clicking on the green flag. You should see the LEDs on the Sense HAT begin to randomly sparkle.

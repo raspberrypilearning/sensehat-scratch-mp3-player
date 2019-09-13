@@ -5,8 +5,8 @@ In this project you will be making your very own MP3 player using a Raspberry Pi
 ### What you will make
 
 <video width="640" height="360" controls>
-<source src="images/mp3.webm" type="video/webm">
-Your browser does not support WebM video, so try FireFox or Chrome.
+<source src="images/mp3.mp4" type="video/mp4">
+Your browser does not support MP4 video, so try FireFox or Chrome.
 </video>
 
 --- collapse ---

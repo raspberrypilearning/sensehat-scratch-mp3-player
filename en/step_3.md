@@ -7,26 +7,27 @@ Gather a few MP3 files together to begin with — you'll want a minimum of three
 --- /task ---
 
 --- task ---
-Click on the **Sounds** tab for your sprite, and use the **Upload sound from file** button to upload all your MP3 files.
+Click on the **Sounds** tab for your sprite.
+![sounds_tab](images/sounds_tab.png)
+--- /task ---
+
+--- task ---
+Use the **Upload sound from file** button to upload all your MP3 files.
+![upload_sounds](images/sounds.png)
+--- /task ---
+
+You should now see your tracks uploaded in Scratch
 ![sounds](images/sounds.png)
 --- /task ---
 
-Now it's time to play your tracks.
-
 --- task ---
-Your code should currently look like this:
-```blocks
-when flag clicked
-forever
-set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
-```
-You can play a sound using the `play sound`{:class="blocksound"} block. Add this block above your `forever`{:class="blockcontrol"} loop.
+Now it's time to play your tracks. You can play a sound using the `start sound`{:class="block3sound"} block. Add this block above your `forever`{:class="block3control"} loop.
 
-```blocks
+```blocks3
 when flag clicked
-play sound [track_01.mp3 v]
+start sound [track_01 v]
 forever
-set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
 ```
 --- /task ---
 

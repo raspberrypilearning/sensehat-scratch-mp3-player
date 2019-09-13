@@ -30,19 +30,32 @@ forever
 ```
 --- /task ---
 
-Colours can be represented by what are called Hexadecimal codes or *hexcodes* for short. You can see a list of some hexcodes along with the colours they represent below.
-
-<a title="Monaneko [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:SVG_Recognized_color_keyword_names.svg"><img width="512" alt="SVG Recognized color keyword names" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/SVG_Recognized_color_keyword_names.svg/512px-SVG_Recognized_color_keyword_names.svg.png"></a>
-
 --- task ---
-Create a new variable called `hex`{:class="block3variables"}
+Find the `set pixel`{:class="block3extension"} block in the Sense Hat extension.
+Try adding numbers into the `x`{:class="block3extension"}, `y`{:class="block3extension"} and changing the colour in the `to`{:class="block3extension"} field.
+
+Then click the block and you should see the colour of the pixel on the Sense HAT change.
 --- /task ---
 
 --- task ---
-You can begin by setting the value of `hex`{:class="block3variables"} to `#`{:class="block3variables"}
+Now you can change the pixel position and colour to be random.
 
 ```blocks3
-set [hex v] to [#]
+set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
+```
+
+Click on the block again and you should see random pixels being set to random colours
+--- /task ---
+
+--- task ---
+Now place the `set pixel`{:class="block3extension"} into your `forever`{:class="block3control"} loop.
+--- /task ---
+
+--- task ---
+```blocks3
+when flag clicked
+forever
+set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
 ```
 --- /task ---
 

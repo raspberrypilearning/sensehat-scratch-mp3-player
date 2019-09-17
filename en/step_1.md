@@ -37,9 +37,9 @@ Optional:
 ---
 title: Additional information for educators
 ---
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sensehat-scratch-mp3-player/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+You can find the [completed project here](http://rpf.io/p/en/sensehat-scratch-mp3-player-get){:target="_blank"}.
 --- /collapse ---
 
 

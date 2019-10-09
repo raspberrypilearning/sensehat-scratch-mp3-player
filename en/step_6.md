@@ -1,6 +1,6 @@
 ## Changing the track
 
-Now that you know how to use the joystick, it's time to try and use it to change which track is playing.
+Now that you know how to use the joystick, it's time to try to use it to change which track is playing.
 
 --- task ---
 1. When the program starts, you will need to `stop all sounds`{:class="block3sound"}.

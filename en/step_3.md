@@ -12,11 +12,11 @@ Click on the **Sounds** tab for your sprite.
 --- /task ---
 
 --- task ---
-Use the **Upload sound from file** button to upload all your MP3 files.
+Use the **Upload sound from file** button to upload all of your MP3 files.
 ![upload_sounds](images/sounds.png)
 --- /task ---
 
-You should now see your tracks uploaded in Scratch
+You should now see your tracks uploaded in Scratch.
 ![sounds](images/sounds.png)
 --- /task ---
 
@@ -32,7 +32,7 @@ set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random 
 --- /task ---
 
 --- task ---
-Now click on the green flag to play your track as the disco lights start. Make sure you have speakers or headphones plugged into your Raspberry Pi. You might also need to change the sound output to **Analog** by right-clicking on the speaker icon in the header bar of the desktop and then clicking this option.
+Now click on the green flag to play your track as the disco lights start. Make sure you have speakers or headphones plugged into your Raspberry Pi. You might also need to change the sound output to **Analog** by right-clicking on the speaker icon in the header bar of the desktop and then clicking on this option.
 ![analog](images/analog.png)
 --- /task ---
 

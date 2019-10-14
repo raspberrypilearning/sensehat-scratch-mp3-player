@@ -6,25 +6,25 @@ The Raspberry Pi treats the Sense HAT joystick in the same way as the arrow keys
 
 --- task ---
 Change the script you already have so that the volume starts at `100%`.
-```blocks
+```blocks3
 when flag clicked
-set [track v] to [1]
-scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension
+set [track v] to (1)
+display text (join [track] (track)) ::extension
 set volume to (100) %
-play sound (track)
+start sound (track)
 forever
-set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
 ```
 --- /task ---
 
 --- task ---
-Add in two new scripts that use `when key pressed`{:class="blockcontrol"} blocks to `change volume`{:class="blocksound"}.
+Add in two new scripts that use `when joystick pushed`{:class="block3extension"} blocks to `change volume`{:class="block3sound"}.
 
-```blocks
-when [up arrow v] key pressed
+```blocks3
+when joystick pushed [up v] ::extension
 change volume by (10)
 
-when [down arrow v] key pressed
+when joystick pushed [down v] ::extension
 change volume by (-10)
 ```
 --- /task ---

@@ -1,52 +1,52 @@
 ## Changing the track
 
-Now that you know how to use the joystick, it's time to try and use it to change which track is playing.
+Now that you know how to use the joystick, it's time to try to use it to change which track is playing.
 
 --- task ---
-1. When the program starts, you will need to `stop all sounds`{:class="blocksound"}.
-2. Use the `when left arrow is pressed`{:class="blockevents"} and the `when right arrow is pressed`{:class="blockevents"} blocks to `stop all sounds`{:class="blocksound"} and to increase or decrease the value of your `track`{:class="blockdata"} variable.
-3. You can also use a `scroll message`{:class="blockmoreblocks"} block to show again which track is being played.
+1. When the program starts, you will need to `stop all sounds`{:class="block3sound"}.
+
+2. Use the `when joystick pushed left`{:class="block3extension"} and the `when joystick pushed right`{:class="block3extension"} blocks to `stop all sounds`{:class="block3sound"} and to increase or decrease the value of your `track`{:class="block3data"} variable.
+3. You can also use a `scroll message`{:class="block3extension"} block to show again which track is being played.
 --- /task ---
 
 --- hints --- --- hint ---
 Adding a single block will complete your main script:
-```blocks
+```blocks3
 when flag clicked
-set [track v] to [1]
-scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension
+set [track v] to (1)
+display text (join [track] (track)) ::extension
 stop all sounds
 set volume to (100) %
-play sound (track)
+start sound (track)
 forever
-set pixel (pick random (0) to (7)),( pick random (0) to (7)) to R (pick random (0) to (255))G(pick random (0) to (255))B(pick random (0) to (255))::extension
+set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
 ```
 --- /hint --- --- hint ---
-You can use the `when arrow is pressed`{:class="blockevents"} blocks to change the value stored in your `track`{:class="blockdata"} variable like this:
-```blocks
-when [right arrow v] key pressed
+You can use the `when arrow is pressed`{:class="block3events"} blocks to change the value stored in your `track`{:class="block3data"} variable like this:
+```blocks3
+when joystick pushed right ::extension
 stop all sounds
 change [track v] by (1)
 
-when [left arrow v] key pressed
+when joystick pushed left ::extension
 stop all sounds
 change [track v] by (-1)
 ```
 --- /hint --- --- hint ---
-Then you just need to `scroll message`{:class="blockmoreblocks"} and `play sound`{:class="blocksound"} for both arrow keys.
+Then you just need to `scroll message`{:class="block3extension"} and `play sound`{:class="block3sound"} for both arrow keys.
 
-```blocks
-when [right arrow v] key pressed
+```blocks3
+when joystick pushed right ::extension
 stop all sounds
 change [track v] by (1)
-scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension
-play sound (track)
+display text (join [track] (track)) ::extension
+start sound (track)
 
-when [left arrow v] key pressed
+when joystick pushed left ::extension
 stop all sounds
 change [track v] by (-1)
-scroll message (join [track] (track)) at rotation [0 v] in colour [white v] background [off v] ::extension
-play sound (track)
-```
+display text (join [track] (track)) ::extension
+start sound (track)
 ```
 --- /hint --- --- /hints ---
 

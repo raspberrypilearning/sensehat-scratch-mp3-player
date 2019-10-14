@@ -11,8 +11,8 @@ Try the following:
 --- /task ---
 
 --- hints --- --- hint ---
-You can store a number in `track`{:class="blockdata"} by doing the following:
-```blocks
+You can store a number in `track`{:class="block3data"} by doing the following:
+```blocks3
 when flag clicked
 set [track v] to (1)
 start sound [track_01 v]
@@ -21,7 +21,7 @@ set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random 
 ```
 --- /hint --- --- hint ---
 The `display text`{:class="block3extensions"} block can use the `track`{:class="block3data"} variable with a `join`{:class="block3operators"} block. You can choose whichever colours you like.
-```blocks
+```blocks3
 when flag clicked
 set [track v] to (1)
 display text (join [track] (track)) ::extension
@@ -30,8 +30,8 @@ forever
 set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
 ```
 --- /hint --- --- hint ---
-Finish the script by changing the track that is being played to the `track`{:class="blockdata"} variable.
-```blocks
+Finish the script by changing the track that is being played to the `track`{:class="block3data"} variable.
+```blocks3
 when flag clicked
 set [track v] to (1)
 display text (join [track] (track)) ::extension

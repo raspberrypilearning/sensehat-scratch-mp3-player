@@ -23,7 +23,7 @@ Add the **Pi SenseHAT** extension in Scratch.
 Now you're all set up, you can begin to make your MP3 player by creating a disco effect on the display.
 
 --- task ---
-Begin by adding a `when flag clicked`{:class="blockevents"} block, and then add a `forever`{:class="blockcontrol"} block below it.
+Begin by adding a `when flag clicked`{:class="block3events"} block, and then add a `forever`{:class="block3control"} block below it.
 ```blocks3
 when flag clicked
 forever

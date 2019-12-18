@@ -24,11 +24,11 @@ set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random 
 --- /hint --- --- hint ---
 You can use the `when arrow is pressed`{:class="block3events"} blocks to change the value stored in your `track`{:class="block3variables"} variable like this:
 ```blocks3
-when joystick pushed right ::extension
+when joystick pushed right ::hat extension
 stop all sounds
 change [track v] by (1)
 
-when joystick pushed left ::extension
+when joystick pushed left ::hat extension
 stop all sounds
 change [track v] by (-1)
 ```
@@ -36,16 +36,16 @@ change [track v] by (-1)
 Then you just need to `scroll message`{:class="block3extensions"} and `play sound`{:class="block3sound"} for both arrow keys.
 
 ```blocks3
-when joystick pushed right ::extension
+when joystick pushed right ::hat extension
 stop all sounds
 change [track v] by (1)
-display text (join [track] (track)) ::extension
+display text (join [track] (track)) ::hat extension
 start sound (track)
 
-when joystick pushed left ::extension
+when joystick pushed left ::hat extension
 stop all sounds
 change [track v] by (-1)
-display text (join [track] (track)) ::extension
+display text (join [track] (track)) ::hat extension
 start sound (track)
 ```
 --- /hint --- --- /hints ---

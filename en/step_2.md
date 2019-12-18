@@ -31,7 +31,7 @@ forever
 --- /task ---
 
 --- task ---
-Find the `set pixel`{:class="block3extension"} block in the Sense HAT extension.
+Find the `set pixel`{:class="block3extensions"} block in the Sense HAT extension.
 Try adding numbers into the `x`{:class="block3extension"} and`y`{:class="block3extension"} fields, and changing the colour in the `to`{:class="block3extension"} field.
 
 Then, click on the block, and you should see the colour of the pixel on the Sense HAT change.

@@ -21,10 +21,10 @@ set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random 
 Add in two new scripts that use `when joystick pushed`{:class="block3extensions"} blocks to `change volume`{:class="block3sound"}.
 
 ```blocks3
-when joystick pushed [up v] ::extension
+when joystick pushed [up v] ::hat extension
 change volume by (10)
 
-when joystick pushed [down v] ::extension
+when joystick pushed [down v] ::hat extension
 change volume by (-10)
 ```
 --- /task ---

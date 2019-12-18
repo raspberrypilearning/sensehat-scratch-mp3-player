@@ -31,8 +31,8 @@ forever
 --- /task ---
 
 --- task ---
-Find the `set pixel`{:class="block3extension"} block in the Sense HAT extension.
-Try adding numbers into the `x`{:class="block3extension"} and`y`{:class="block3extension"} fields, and changing the colour in the `to`{:class="block3extension"} field.
+Find the `set pixel`{:class="block3extensions"} block in the Sense HAT extension.
+Try adding numbers into the `x`{:class="block3extensions"} and`y`{:class="block3extensions"} fields, and changing the colour in the `to`{:class="block3extensions"} field.
 
 Then, click on the block, and you should see the colour of the pixel on the Sense HAT change.
 --- /task ---
@@ -48,7 +48,7 @@ Click on the block again, and you should see random pixels being set to random c
 --- /task ---
 
 --- task ---
-Now place the `set pixel`{:class="block3extension"} block into your `forever`{:class="block3control"} loop.
+Now place the `set pixel`{:class="block3extensions"} block into your `forever`{:class="block3control"} loop.
 --- /task ---
 
 --- task ---

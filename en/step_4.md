@@ -4,10 +4,10 @@ Next, you're going to display the number of the track that's currently playing. 
 
 --- task ---
 Try the following:
-1. Create a new variable called `track`{:class="block3data"} and set it to `1`.
+1. Create a new variable called `track`{:class="block3variables"} and set it to `1`.
    [[[generic-scratch3-add-variable]]]
 1. Use the `display text`{:class="block3extensions"} block to display the number stored in `track`{:class="block3data"} on the Sense HAT.
-1. Play the track with the number stored in your `track`{:class="block3data"} variable.
+1. Play the track with the number stored in your `track`{:class="block3variables"} variable.
 --- /task ---
 
 --- hints --- --- hint ---

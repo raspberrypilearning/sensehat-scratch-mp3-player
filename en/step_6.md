@@ -39,13 +39,13 @@ Then you just need to `scroll message`{:class="block3extensions"} and `play soun
 when joystick pushed right ::hat extension
 stop all sounds
 change [track v] by (1)
-display text (join [track] (track)) ::hat extension
+display text (join [track] (track)) ::extension
 start sound (track)
 
 when joystick pushed left ::hat extension
 stop all sounds
 change [track v] by (-1)
-display text (join [track] (track)) ::hat extension
+display text (join [track] (track)) ::extension
 start sound (track)
 ```
 --- /hint --- --- /hints ---

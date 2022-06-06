@@ -8,11 +8,13 @@ copyedit: true
 last_tested: '2018-05-29'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Making it sparkle
 - title: Playing some tunes
+  completion:
+  - engaged
 - title: Displaying the track number
 - title: Changing the volume
 - title: Changing the track
-  completion: internal
+  completion:
+  - internal
 - title: 'Challenge: shuffle the tracks'

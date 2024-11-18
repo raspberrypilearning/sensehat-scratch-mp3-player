@@ -1,6 +1,6 @@
 ## Challenge
 
-Want to make your project even cooler?
+Time to make your project even cooler!
 
 You could:
 

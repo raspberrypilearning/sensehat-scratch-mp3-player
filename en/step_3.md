@@ -36,21 +36,35 @@ Select all the files you want to upload in the window that appears and click **O
 You should now see your tracks uploaded in Scratch.
 ![The Scratch interface in the "Sounds" tab, displaying a sound editing area. A list of sound clips on the left includes "Coding Bliss," "Digital Dreams," "Digital Liberation," "Lines of Code," and "Rhythms of Code," with "Rhythms of Code" selected. The main area shows the waveform of "Rhythms of Code" in purple. Editing tools above the waveform include options for copy, paste (grayed out), copy to new, and delete. Playback controls below the waveform include play, faster, slower, louder, softer, mute, fade in, fade out, reverse, and robot effects.](images/sounds.png)
 
---- /task ---
-
 --- task ---
 Now it's time to play your tracks! Play a sound using the `start sound`{:class="block3sound"} block. Add this block above your `forever`{:class="block3control"} loop:
 
 ```blocks3
 when flag clicked
-+start sound [track_01 v]
++start sound [Coding Bliss v]
 forever
 set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
 ```
 --- /task ---
 
 --- task ---
-Now click on the green flag to play your track as the disco lights start. Make sure you have speakers or headphones plugged into your Raspberry Pi. You might also need to change the sound output to **Analog** by right-clicking on the speaker icon in the header bar of the desktop and then clicking on this option.
-![Interface displaying Bluetooth, Wi-Fi, and volume icons, with the time "08:57" in the top right corner. A dropdown menu shows options for "Analog" (selected with a green checkmark) and "HDMI." Below, there are three screen layout icons for window arrangement.](images/analog.png)
+Test your code.
+
+Click on the green flag to play your track as the disco lights start. 
 --- /task ---
+
+--- collapse ---
+
+---
+
+title: I can't hear anything
+
+---
+
+Make sure you have speakers or headphones connected to your Raspberry Pi. 
+
+You might also need to change the sound output to **Analog** by right-clicking on the speaker icon in the header bar of the desktop and then clicking on this option.
+![Interface displaying Bluetooth, Wi-Fi, and volume icons, with the time "08:57" in the top right corner. A dropdown menu shows options for "Analog" (selected with a green checkmark) and "HDMI." Below, there are three screen layout icons for window arrangement.](images/analog.png)
+
+--- /collapse ---
 

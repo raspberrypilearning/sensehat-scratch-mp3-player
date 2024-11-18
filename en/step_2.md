@@ -32,39 +32,30 @@ forever
 
 --- task ---
 Find the `set pixel`{:class="block3extensions"} block in the Sense HAT extension.
-Put numbers into the `x`{:class="block3extensions"} and`y`{:class="block3extensions"} fields, and change the colour in the `to`{:class="block3extensions"} field.
---- /task ---
-
---- task ---
-Test your code. 
-
-Click on the block, and you should see the colour of the pixel on the Sense HAT change.
---- /task ---
-
---- task ---
-Change the pixel position and colour to be random.
+Put numbers into the `x`{:class="block3extensions"} and`y`{:class="block3extensions"} fields, and change the colour in the `to`{:class="block3extensions"} field:
 
 ```blocks3
-set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
+when flag clicked
+forever
++set pixel x (3) y (5) to (1000) ::extension
 ```
 --- /task ---
 
 --- task ---
 Test your code. 
 
-Click on the block again a few times, and you should see random pixels being set to random colours.
+Click on the green flag, and you should see the colour of the pixel at (3,5) on the Sense HAT change.
 --- /task ---
 
 --- task ---
-Now place the `set pixel`{:class="block3extensions"} block into your `forever`{:class="block3control"} loop.
---- /task ---
+Change the pixel position and colour to be random using the `random`{:class="block3operators"} block.
 
---- task ---
+Make sure the numbers in your code match the ones here:
+
 ```blocks3
 when flag clicked
 forever
 +set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
-end
 ```
 --- /task ---
 

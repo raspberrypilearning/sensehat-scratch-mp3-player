@@ -37,14 +37,14 @@ Put numbers into the `x`{:class="block3extensions"} and`y`{:class="block3extensi
 ```blocks3
 when flag clicked
 forever
-+set pixel x (3) y (5) to (1000) ::extension
++set pixel x (3) y (5) to [#ffffff]:: extension
 ```
 --- /task ---
 
 --- task ---
 Test your code. 
 
-Click on the green flag, and you should see the colour of the pixel at (3,5) on the Sense HAT change.
+Click on the green flag, and you should see the colour of the pixel at (3,5) on the Sense HAT go white.
 --- /task ---
 
 --- task ---

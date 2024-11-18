@@ -1,11 +1,29 @@
-## Challenge: shuffle the tracks
+## Challenge
 
---- challenge ---
-+ Can you make your MP3 player stop and start again when the joystick is pushed down?
+Want to make your project even cooler?
 
-+ A nice feature to have on an MP3 player is the option to shuffle the tracks so that they play in a random order.
+You could:
+
+--- task ---
+
+Make your MP3 player stop and start again when the joystick is pushed down.
+
+--- /task ---
+
+--- task ---
+
+Make the option to shuffle the tracks so that they play in a random order.
+
+--- /task ---
   
-  The Sense HAT can detect changes in the air's humidity, which means you can trigger events by gently blowing on it.
+--- task ---
 
-  Can you change your MP3 player code so that when you blow on the Sense HAT, it detects a change in humidity and then plays a random track?
---- /challenge ---
+Change your MP3 player code so that when you shake the Sense HAT, it detects the movement and then plays a random track.
+
+--- /task ---
+
+--- task ---
+
+Change your MP3 player code so that when you breathe on the Sense HAT, it detects a change in humidity and changes the track.
+
+--- /task ---  

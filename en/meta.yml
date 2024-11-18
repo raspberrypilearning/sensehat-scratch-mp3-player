@@ -17,4 +17,7 @@ steps:
 - title: Changing the track
   completion:
   - internal
-- title: 'Challenge: shuffle the tracks'
+- title: Challenge
+  completion:
+  - external
+- title: What can you do now?

@@ -42,3 +42,9 @@ forever
 set pixel x (pick random (0) to (7)) y (pick random (0) to (7)) to (pick random (-100000) to (100000)) ::extension
 ```
 --- /task ---
+
+--- task ---
+
+Test your code. Click the green flag. You should see your SenseHAT play the track and show the number on the LED display.
+
+--- /task ---

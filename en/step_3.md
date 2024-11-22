@@ -5,7 +5,7 @@ Now you have a disco effect, it's time to make your MP3 player play some tunes!
 --- task ---
 Gather a few MP3 files together to begin with — you'll want a minimum of three. Save them in the same directory as your Scratch code. 
 
-Some example songs are provided for you to [download here](https://rpf.io/p/en/sensehat-scratch-mp3-player-go) - these mp3s were created with the free online AI tool [Udio](https://www.udio.com/). 
+Some example songs are provided for you to [download here](https://rpf.io/p/en/sensehat-scratch-mp3-player-go){:target="_blank"} - these mp3s were created with the free online AI tool [Udio](https://www.udio.com/){:target="_blank"}. (You must be 13 or older ot use Udio.)
 
 --- /task ---
 
@@ -22,7 +22,7 @@ Delete the sound effects already on your sprite by clicking the small trash icon
 --- /task ---
 
 --- task ---
-Use the **Upload sound from file** button to upload all of your MP3 files.
+Use the **Upload sound** button to upload all of your MP3 files.
 ![Vertical toolbar in the Scratch "Sounds" tab showing icons for uploading a sound (with a green tooltip labeled "Upload Sound"), sound effects, recording a sound, searching for sounds, and selecting sounds (highlighted in purple at the bottom).](images/sound-upload.png)
 
 --- /task ---

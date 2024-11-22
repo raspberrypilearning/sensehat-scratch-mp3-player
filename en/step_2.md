@@ -1,10 +1,30 @@
 ## Making it sparkle
 
-Get the Sense HAT to show a random sparkly display to accompany your favorite music.
+Get the Sense HAT to show a random sparkly display to accompany your favourite music.
 
 --- task ---
 Open Scratch 3 from the application menu.
-[[[rpi-scratch-opening]]]
+
+--- collapse ---
+--- 
+title: Scratch on Raspberry Pi
+---
+
+If you are using a Raspberry Pi computer, Scratch may already be installed. Click on the **Raspberry Pi** icon to open the menu, then click on **Programming**, then select **Scratch 3**.
+
+If you need to install Scratch, follow this process:
++ Click on the Raspberry Pi icon to open the menu
++ Click on **Preferences**
++ Click on **Recommended Software**
++ Select **Scratch 3**
++ Click on **OK**
+
+![Recommended software dialogue with Scratch 3 selected.](images/recommended-software-scratch-3.png)
+
+See [Scratch 3 Desktop for Raspberry Pi](https://www.raspberrypi.org/blog/scratch-3-desktop-for-raspbian-on-raspberry-pi/){:target="_blank"} for more information.
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
@@ -13,7 +33,7 @@ Choose a sprite for your MP3 player — in this example, the sprite is a speaker
 [[[generic-scratch3-sprite-from-library]]]
 --- /task ---
 
-You can delete any scripts or sounds that are already on your sprite.
+Delete any scripts or sounds that are already on your sprite.
 
 --- task ---
 Add the **Pi SenseHAT** extension in Scratch.

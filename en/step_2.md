@@ -1,4 +1,4 @@
-## Making it sparkle
+## Make it sparkle
 
 Get the Sense HAT to show a random sparkly display to accompany your favourite music.
 

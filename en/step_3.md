@@ -1,4 +1,4 @@
-## Playing some tunes
+## Play some tunes
 
 Now you have a disco effect, it's time to make your MP3 player play some tunes!
 

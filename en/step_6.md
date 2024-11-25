@@ -1,4 +1,4 @@
-## Changing the track
+## Change the track
 
 Now that you know how to use the joystick, set it to change which track is playing.
 

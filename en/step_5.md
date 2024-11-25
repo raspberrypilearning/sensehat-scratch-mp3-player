@@ -1,4 +1,4 @@
-## Changing the volume
+## Change the volume
 
 You can now add some extra controls to your MP3 player so that the Sense HAT joystick can control the volume.
 

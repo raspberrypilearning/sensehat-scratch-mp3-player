@@ -1,4 +1,4 @@
-## Displaying the track number
+## Display the track number
 
 Next, display the number of the track that's currently playing. 
 

@@ -4,7 +4,7 @@ Try our [Random Sparkles](https://projects.raspberrypi.org/en/projects/sense-hat
 
 --- no-print ---
 
-<iframe src="https://trinket.io/embed/python/55af2b45f5?outputOnly=true&runOption=run" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-sense-hat-random-sparkles-complete" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 --- /no-print ---
 
